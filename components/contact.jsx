@@ -82,12 +82,12 @@ export default function Contact() {
           type='email'
           required
           maxLength={500}
-          placeholder='Your email'
+          placeholder='E-Postan'
         />
         <textarea
           className='h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none'
           name='message'
-          placeholder='Your message'
+          placeholder='Mesajın...'
           required
           maxLength={5000}
         />
