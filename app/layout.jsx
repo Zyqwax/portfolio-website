@@ -42,10 +42,20 @@ export default function RootLayout({ children }) {
         <meta name='description' content="Enes Samed Gözlü'nün portföy sitesi. Yazılım öğrencisi ve frontend, backend teknolojilerinde yetkin, yaratıcı projeler ve deneyimler." />
         <meta name='keywords' content='Enes Samed Gözlü, yazılım öğrencisi, frontend, backend, React, Next.js, Python, Django, portföy, yazılım geliştirme, web geliştirme' />
         <meta name='author' content='Enes Samed Gözlü' />
+        <meta name='description' content='Enes Samed Gözlü&#039;nün portföy sitesi. Yazılım öğrencisi ve frontend, backend teknolojilerinde yetkin, yaratıcı projeler ve deneyimler.' />
+        <meta itemprop='name' content='Enes Samed Gözlü - Portföy' />
+        <meta itemprop='image' content='https://www.enessamedgozlu.me/thumbnail.png' />
+
+        <meta property='og:url' content='https://www.enessamedgozlu.me/' />
+        <meta property='og:type' content='website' />
         <meta property='og:title' content='Enes Samed Gözlü - Portföy' />
-        <meta property='og:description' content="Yazılım öğrencisi Enes Samed Gözlü'nün portföy sitesi. Yaratıcı projeler, yazılım geliştirme deneyimleri ve teknoloji hakkındaki bilgiler." />
-        <meta property='og:image' content='/thumbnail.png' />
-        <meta property='og:url' content='https://enessamedgozlu.me' />
+        <meta property='og:description' content='Enes Samed Gözlü&#039;nün portföy sitesi. Yazılım öğrencisi ve frontend, backend teknolojilerinde yetkin, yaratıcı projeler ve deneyimler.' />
+        <meta property='og:image' content='https://www.enessamedgozlu.me/thumbnail.png' />
+
+        <meta name='twitter:card' content='summary_large_image' />
+        <meta name='twitter:title' content='Enes Samed Gözlü - Portföy' />
+        <meta name='twitter:description' content='Enes Samed Gözlü&#039;nün portföy sitesi. Yazılım öğrencisi ve frontend, backend teknolojilerinde yetkin, yaratıcı projeler ve deneyimler.' />
+        <meta name='twitter:image' content='https://www.enessamedgozlu.me/thumbnail.png' />
       </head>
       <body className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}>
         <div className='bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263]'></div>
