@@ -26,21 +26,13 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
-            <Image
-              src='/me.jpg'
-              alt='Enes Samed Gözlü'
-              width='192'
-              height='192'
-              quality='95'
-              priority={true}
-              className='h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl'
-            />
+            <Image src='/me.jpg' alt='Enes Samed Gözlü' width='192' height='192' quality='95' priority={true} className='h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl' />
           </motion.div>
 
           <motion.span
             className='absolute bottom-0 right-0 text-4xl'
-            initial={{ opacity: 0, scale: 0,bottom:100 }}
-            animate={{ opacity: 1, scale: 1, bottom:-16 }}
+            initial={{ opacity: 0, scale: 0, bottom: 100 }}
+            animate={{ opacity: 1, scale: 1, bottom: -16 }}
             transition={{
               type: 'spring',
               stiffness: 125,
@@ -53,15 +45,10 @@ export default function Intro() {
         </div>
       </div>
 
-      <motion.h1
-        className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
+      <motion.h1 className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl' initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
         <span className='font-bold'>Merhaba, ben Enes.</span> Ben <span className='font-bold'>frontend ve backend geliştiriciyim</span> ve{' '}
-        <span className='font-bold'>yazılım dünyasına ilgi duyan bir lise öğrencisiyim</span>.
-        <span className='italic'>Web siteleri ve uygulamalar</span> geliştirmekten keyif alıyorum. Odaklandığım teknolojiler{' '}
-        <span className='underline'>React (Next.js), Python ve Django</span>.
+        <span className='font-bold'>yazılım dünyasına ilgi duyan bir lise öğrencisiyim</span>.<span className='italic'>Web siteleri ve uygulamalar</span> geliştirmekten keyif alıyorum. Odaklandığım
+        teknolojiler <span className='underline'>React (Next.js), Python ve Django</span>.
       </motion.h1>
 
       <motion.div
