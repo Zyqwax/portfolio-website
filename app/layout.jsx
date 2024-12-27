@@ -56,6 +56,8 @@ export default function RootLayout({ children }) {
         <meta name='twitter:title' content='Enes Samed Gözlü - Portföy' />
         <meta name='twitter:description' content='Enes Samed Gözlü&#039;nün portföy sitesi. Yazılım öğrencisi ve frontend, backend teknolojilerinde yetkin, yaratıcı projeler ve deneyimler.' />
         <meta name='twitter:image' content='https://www.enessamedgozlu.me/thumbnail.png' />
+
+        <meta name="google-site-verification" content="TBQTkqBYDJqbh3zqOtWZSU8ibQDOPMkCyV2cCu7irS4" />
       </head>
       <body className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}>
         <div className='bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263]'></div>
